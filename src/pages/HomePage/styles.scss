@@ -1,0 +1,35 @@
+.homePage-container {
+  .homePage-header-menu {
+  }
+  .post-title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 0 150px;
+    h1 {
+      font-weight: 500;
+    }
+  }
+  .info-content {
+    // background: red;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    .post-author {
+      flex: 2;
+    }
+    .post-btn {
+      //   background: red;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+  .post-description {
+    padding: 0 150px;
+  }
+}

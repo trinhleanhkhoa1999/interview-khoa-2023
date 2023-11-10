@@ -1,0 +1,11 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  padding: 0 150px;
+  table {
+    margin: 20px 0;
+  }
+}
